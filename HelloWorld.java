@@ -32,6 +32,7 @@ public class SeleniumTest {
          */
         if (actualTitle.contentEquals(expectedTitle)){
             System.out.println("Test Passed!");
+            System.out.println("Success");
         } else {
             System.out.println("Test Failed");
         }
